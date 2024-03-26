@@ -23,7 +23,7 @@ type playersList = {
   
 export function Players({ players }: playersList) {
     return (
-      <div className="w-[256px] md:w-[520px] lg:w-[790px] xl:w-[1050px] 2xl:w-[1330px]">
+      <div className="w-5/6 md:w-[520px] lg:w-[790px] xl:w-[1050px] 2xl:w-[1330px]">
         <div className="flex justify-between w-full">
           <div className="text-2xl font-bold underline underline-offset-8 decoration-purple-500">
             Sports
