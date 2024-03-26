@@ -5,7 +5,7 @@ interface AdInfo  {
 
 export function AdCard({adTitle, adDescription}: AdInfo) {
     return (
-        <div className="p-2.5 shadow-lg h-[512px] my-6 w-64  border dark:bg-[#3B3E47]">
+        <div className="p-2.5 shadow-lg h-[512px] my-6 w-64  border dark:bg-[#3B3E47] dark:hover:bg-[#53565e] hover:bg-[#00000020] duration-300">
             <div className="border-[0.2px] border-green-800 h-full">
                 <div className="relative">
                     <div className="absolute top-0 right-0 pl-3.5 pr-3.5 pt-1 pb-1 text-xs bg-black text-white ">AD</div>

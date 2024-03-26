@@ -1,6 +1,7 @@
 import { Players } from "@/components/Players";
 import { ShowMore } from "@/components/ShowMore";
-import { Tickets } from "@/components/Tickets";
+import { Ticket } from "@/components/Ticket";
+import { TicketContainer } from "@/components/TicketContainer";
 
 export default function Home() {
   const players = [
@@ -31,10 +32,11 @@ export default function Home() {
   ];
 
   return (
-    <div className="pt-16 pb-16 dark:text-white flex flex-col items-center">
+    <div className="pt-16 pb-12 dark:text-white flex flex-col items-center">
       <Players players={players} />
       <ShowMore/>
-      <Tickets/>
+      <TicketContainer/>
+      <a className="pt-6 hover:text-blue-500" href="https://twitter.com/ShivamKrandom" >Made by Shivam</a>
     </div>
   );
 }
